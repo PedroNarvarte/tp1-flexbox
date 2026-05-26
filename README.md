@@ -4,4 +4,4 @@ Portada de diario digital responsive desarrollada con HTML y CSS utilizando Flex
 
 ## GitHub Pages
 
-(PEGAR ACA EL LINK DESPUES)
+https://pedronarvarte.github.io/tp1-flexbox/
