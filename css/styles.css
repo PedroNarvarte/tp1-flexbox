@@ -177,3 +177,71 @@ footer {
     }
 
 }
+.subscription-container{
+    max-width:1000px;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+}
+
+.subscription-container h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#222;
+}
+
+#subscriptionForm{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+.campo{
+    display:flex;
+    flex-direction:column;
+}
+
+.campo label{
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
+.campo input{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.error{
+    color:red;
+    font-size:14px;
+    margin-top:4px;
+}
+
+.boton-container{
+    grid-column:1/-1;
+    text-align:center;
+}
+
+.boton-container button{
+    background:#222;
+    color:white;
+    border:none;
+    padding:12px 30px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.boton-container button:hover{
+    background:#444;
+}
+
+@media(min-width:768px){
+
+    #subscriptionForm{
+        grid-template-columns:1fr 1fr;
+    }
+
+}
